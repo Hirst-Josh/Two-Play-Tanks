@@ -1,0 +1,115 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3826629292848204699
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3826629292848204702}
+  - component: {fileID: 3826629292848204701}
+  - component: {fileID: 3826629292848204700}
+  - component: {fileID: 1862124778779578980}
+  - component: {fileID: 1862124778779581851}
+  m_Layer: 0
+  m_Name: Volume Settings
+  m_TagString: Settings
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3826629292848204702
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3826629292848204699}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3826629292848204701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3826629292848204699}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isGlobal: 1
+  priority: 1
+  blendDistance: 0
+  weight: 1
+  sharedProfile: {fileID: 11400000, guid: 1a99ec0559dc79042a34f169131ddea3, type: 2}
+--- !u!114 &3826629292848204700
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3826629292848204699}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 441482e8936e35048a1dffac814e3ef8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Profile: {fileID: 11400000, guid: 1a99ec0559dc79042a34f169131ddea3, type: 2}
+  m_StaticLightingSkyUniqueID: 2
+--- !u!114 &1862124778779578980
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3826629292848204699}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3acb384eec2605c4eb4fb06ec017910d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerone: {fileID: 0}
+  setplayerone: 0
+  playertwo: {fileID: 0}
+  setplayertwo: 0
+--- !u!114 &1862124778779581851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3826629292848204699}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0ca6f67e249e064a90e754b867fbd4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SunCloundsParticleSysterm: {fileID: 0}
+  ThunderStormParticleSysterm: {fileID: 0}
+  MistParticleSysterm: {fileID: 0}
+  OverCatParticleSysterm: {fileID: 0}
+  SnowParticleSysterm: {fileID: 0}
+  SwitchWeatherTimer: 0
+  reaetWeatherTimer: 20
+  AudioFadeTime: 0.25
+  SunnyAudio: {fileID: 0}
+  ThunderAudio: {fileID: 0}
+  MistAudio: {fileID: 0}
+  OverCastAudio: {fileID: 0}
+  SnowAudio: {fileID: 0}
+  lightDimTime: 0.1
+  thuunderIntensoty: 0
+  sunIntensoty: 1
+  MistIntensoty: 0.5
+  overcastIntensoty: 0.25
+  SnowIntensoty: 0.75
+  Timer: 0

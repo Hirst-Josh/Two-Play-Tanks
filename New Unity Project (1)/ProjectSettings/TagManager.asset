@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Settings
+  - Team1
+  - Team1shell
+  - Team2
+  - Team2shell
+  - Tranforms
+  - button
+  - Team1Spawn
+  - Team2Spawn
+  - Bmole
+  - FxTemporaire
+  - Team2Shell
+  - Healthpack
+  - RocketPower
+  - RicochetPickup
+  - Rapid_Fire
+  - FlagPoint
+  - Flag
+  - quit
+  - Test
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - PostProcessing
+  - pick up
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

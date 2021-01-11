@@ -1,0 +1,508 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &7018253240293234255
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1806789518524192502, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: m_UseGravity
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1806789518524192502, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1806789518524192502, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 1993860898168817108, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: hull
+      value: 
+      objectReference: {fileID: 6676212927921930934}
+    - target: {fileID: 1993860898168817108, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: turrrentspeed
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1993860898168817108, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: timebetweenshots
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1993860898168817108, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: shellprefab
+      value: 
+      objectReference: {fileID: 467424161310245836, guid: 5529e94fcf39fc240a45b5b0d31d8b49,
+        type: 3}
+    - target: {fileID: 1993860898168817108, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: RichetsShellPrefab
+      value: 
+      objectReference: {fileID: 7197976551439977396, guid: 7d500c24ab2c6ca479ec380610ac3b7e,
+        type: 3}
+    - target: {fileID: 1993860898168817108, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: RocketProjectile
+      value: 
+      objectReference: {fileID: 3363893986557058554, guid: 1770a740d2727d7428886c1cbc3be263,
+        type: 3}
+    - target: {fileID: 1993860898168817108, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: Ammo
+      value: 70
+      objectReference: {fileID: 0}
+    - target: {fileID: 1993860898168817108, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: AmmoRegan
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1993860898168817108, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: tankfsm
+      value: 
+      objectReference: {fileID: 3246555550936988125}
+    - target: {fileID: 2367296404964423846, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 47fed65dd00d1e041a1e3ce7cc7b1b9e, type: 2}
+    - target: {fileID: 3350549776699712275, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: resistance
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3350549776699712275, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: MinPerToTake
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 3350549776699712275, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: MaxPerToTake
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 3350549776699712275, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: test
+      value: 
+      objectReference: {fileID: 11400000, guid: cf9f171030db64240bdd9c049154c248,
+        type: 2}
+    - target: {fileID: 3350549776699712275, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: EnemyTag
+      value: Team2shell
+      objectReference: {fileID: 0}
+    - target: {fileID: 3350549776699712275, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: tankfsm
+      value: 
+      objectReference: {fileID: 3246555550936988125}
+    - target: {fileID: 3372450531279212229, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.50000006
+      objectReference: {fileID: 0}
+    - target: {fileID: 3372450531279212229, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.50000006
+      objectReference: {fileID: 0}
+    - target: {fileID: 3372450531279212229, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3372450531279212229, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3372450531279212229, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 90.00001
+      objectReference: {fileID: 0}
+    - target: {fileID: 3372450531279212229, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 270
+      objectReference: {fileID: 0}
+    - target: {fileID: 4450528857245734137, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.50000006
+      objectReference: {fileID: 0}
+    - target: {fileID: 4450528857245734137, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.50000006
+      objectReference: {fileID: 0}
+    - target: {fileID: 4450528857245734137, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4450528857245734137, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4450528857245734137, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 90.00001
+      objectReference: {fileID: 0}
+    - target: {fileID: 4450528857245734137, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 4586756816797921569, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4586756816797921569, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.0000001872535
+      objectReference: {fileID: 0}
+    - target: {fileID: 4586756816797921569, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4586756816797921569, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4586756816797921569, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 4586756816797921569, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -0.000015258789
+      objectReference: {fileID: 0}
+    - target: {fileID: 5405904400849729940, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5405904400849729940, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 5487452179624086472, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: resistance
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5487452179624086472, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: MinPerToTake
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 5487452179624086472, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: MaxPerToTake
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 5487452179624086472, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: test
+      value: 
+      objectReference: {fileID: 11400000, guid: cf9f171030db64240bdd9c049154c248,
+        type: 2}
+    - target: {fileID: 5487452179624086472, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: EnemyTag
+      value: Team2shell
+      objectReference: {fileID: 0}
+    - target: {fileID: 5487452179624086472, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: tankfsm
+      value: 
+      objectReference: {fileID: 3246555550936988125}
+    - target: {fileID: 5506720583322333074, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: navMeshAgent
+      value: 
+      objectReference: {fileID: 2110375083282529330}
+    - target: {fileID: 5506720583322333074, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: Enemytag
+      value: Team2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5506720583322333074, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: damageresis
+      value: 
+      objectReference: {fileID: 11400000, guid: cf9f171030db64240bdd9c049154c248,
+        type: 2}
+    - target: {fileID: 5506720583322333074, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: healh
+      value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 5506720583322333074, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: MinSafeHealth
+      value: 250
+      objectReference: {fileID: 0}
+    - target: {fileID: 5506720583322333074, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: avoidHealth
+      value: 175
+      objectReference: {fileID: 0}
+    - target: {fileID: 5506720583322333074, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: fleefast
+      value: 140
+      objectReference: {fileID: 0}
+    - target: {fileID: 5506720583322333074, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: fleesafe
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 5506720583322333074, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: viewradius
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 5506720583322333074, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: viewangle
+      value: 360
+      objectReference: {fileID: 0}
+    - target: {fileID: 5506720583322333074, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: Heal
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5506720583322333074, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: TankTag
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5506720583322333074, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: TankTypeNameString
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5506720583322333074, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: Spawntag
+      value: Team1Spawn
+      objectReference: {fileID: 0}
+    - target: {fileID: 6098874735381785447, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: resistance
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6098874735381785447, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: MinPerToTake
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 6098874735381785447, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: MaxPerToTake
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 6098874735381785447, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: test
+      value: 
+      objectReference: {fileID: 11400000, guid: cf9f171030db64240bdd9c049154c248,
+        type: 2}
+    - target: {fileID: 6098874735381785447, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: EnemyTag
+      value: Team2shell
+      objectReference: {fileID: 0}
+    - target: {fileID: 6098874735381785447, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: tankfsm
+      value: 
+      objectReference: {fileID: 3246555550936988125}
+    - target: {fileID: 6688187882692847674, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 122.8949
+      objectReference: {fileID: 0}
+    - target: {fileID: 6688187882692847674, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0000038146973
+      objectReference: {fileID: 0}
+    - target: {fileID: 6688187882692847674, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 35.887024
+      objectReference: {fileID: 0}
+    - target: {fileID: 6688187882692847674, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6688187882692847674, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.707107
+      objectReference: {fileID: 0}
+    - target: {fileID: 6688187882692847674, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6688187882692847674, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071066
+      objectReference: {fileID: 0}
+    - target: {fileID: 6688187882692847674, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6688187882692847674, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6688187882692847674, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90.00001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6688187882692847674, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7449208080121112028, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7449208080121112028, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 7677070188904995369, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: m_Name
+      value: PanzerKampfwagen II Ausf c Team1 Variant new
+      objectReference: {fileID: 0}
+    - target: {fileID: 7677070188904995369, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: m_TagString
+      value: Team2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8317287361028901372, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8317287361028901372, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.0000001872535
+      objectReference: {fileID: 0}
+    - target: {fileID: 8317287361028901372, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8317287361028901372, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8317287361028901372, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 8317287361028901372, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -0.000015258789
+      objectReference: {fileID: 0}
+    - target: {fileID: 8603448908901896736, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: resistance
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8603448908901896736, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: MinPerToTake
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 8603448908901896736, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: MaxPerToTake
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 8603448908901896736, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: test
+      value: 
+      objectReference: {fileID: 11400000, guid: cf9f171030db64240bdd9c049154c248,
+        type: 2}
+    - target: {fileID: 8603448908901896736, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: EnemyTag
+      value: Team2shell
+      objectReference: {fileID: 0}
+    - target: {fileID: 8603448908901896736, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: tankfsm
+      value: 
+      objectReference: {fileID: 3246555550936988125}
+    - target: {fileID: 8947622044293032573, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: m_AgentTypeID
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: db26560c6ba75154ab4dc07c3cc88c20, type: 3}
+--- !u!114 &3246555550936988125 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5506720583322333074, guid: db26560c6ba75154ab4dc07c3cc88c20,
+    type: 3}
+  m_PrefabInstance: {fileID: 7018253240293234255}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 430d37ee760ebc447b1463c8d8cfaa25, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!195 &2110375083282529330 stripped
+NavMeshAgent:
+  m_CorrespondingSourceObject: {fileID: 8947622044293032573, guid: db26560c6ba75154ab4dc07c3cc88c20,
+    type: 3}
+  m_PrefabInstance: {fileID: 7018253240293234255}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &6676212927921930934 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4450528857245734137, guid: db26560c6ba75154ab4dc07c3cc88c20,
+    type: 3}
+  m_PrefabInstance: {fileID: 7018253240293234255}
+  m_PrefabAsset: {fileID: 0}

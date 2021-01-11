@@ -1,0 +1,279 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &8855951473550838918
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7677070188904995369, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: m_Name
+      value: PanzerKampfwagen II Ausf c Team1 Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 7677070188904995369, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: m_TagString
+      value: Team1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6688187882692847674, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -47.302525
+      objectReference: {fileID: 0}
+    - target: {fileID: 6688187882692847674, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -22.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6688187882692847674, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 87.2721
+      objectReference: {fileID: 0}
+    - target: {fileID: 6688187882692847674, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6688187882692847674, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.70710677
+      objectReference: {fileID: 0}
+    - target: {fileID: 6688187882692847674, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6688187882692847674, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6688187882692847674, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6688187882692847674, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6688187882692847674, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90.00001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6688187882692847674, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1993860898168817108, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: shellprefab
+      value: 
+      objectReference: {fileID: 467424161310245836, guid: 48787e78e52f7f74aa66e70b1119181f,
+        type: 3}
+    - target: {fileID: 1993860898168817108, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: timebetweenshots
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1993860898168817108, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: turrrentspeed
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6098874735381785447, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: resistance
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6098874735381785447, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: MinPerToTake
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 6098874735381785447, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: MaxPerToTake
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 6098874735381785447, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: test
+      value: 
+      objectReference: {fileID: 11400000, guid: cf9f171030db64240bdd9c049154c248,
+        type: 2}
+    - target: {fileID: 6098874735381785447, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: tankfsm
+      value: 
+      objectReference: {fileID: 3930909925464220436}
+    - target: {fileID: 6098874735381785447, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: EnemyTag
+      value: Team1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5506720583322333074, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: healh
+      value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 5506720583322333074, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: damageresis
+      value: 
+      objectReference: {fileID: 11400000, guid: cf9f171030db64240bdd9c049154c248,
+        type: 2}
+    - target: {fileID: 5506720583322333074, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: Enemytag
+      value: Team2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5506720583322333074, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: Heal
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5506720583322333074, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: MinSafeHealth
+      value: 250
+      objectReference: {fileID: 0}
+    - target: {fileID: 5506720583322333074, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: avoidHealth
+      value: 175
+      objectReference: {fileID: 0}
+    - target: {fileID: 5506720583322333074, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: fleesafe
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 5506720583322333074, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: fleefast
+      value: 140
+      objectReference: {fileID: 0}
+    - target: {fileID: 5506720583322333074, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: shootstate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8603448908901896736, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: resistance
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8603448908901896736, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: MinPerToTake
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 8603448908901896736, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: MaxPerToTake
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 8603448908901896736, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: test
+      value: 
+      objectReference: {fileID: 11400000, guid: cf9f171030db64240bdd9c049154c248,
+        type: 2}
+    - target: {fileID: 8603448908901896736, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: tankfsm
+      value: 
+      objectReference: {fileID: 3930909925464220436}
+    - target: {fileID: 8603448908901896736, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: EnemyTag
+      value: Team2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5487452179624086472, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: resistance
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5487452179624086472, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: MinPerToTake
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 5487452179624086472, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: MaxPerToTake
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 5487452179624086472, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: test
+      value: 
+      objectReference: {fileID: 11400000, guid: cf9f171030db64240bdd9c049154c248,
+        type: 2}
+    - target: {fileID: 5487452179624086472, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: tankfsm
+      value: 
+      objectReference: {fileID: 3930909925464220436}
+    - target: {fileID: 5487452179624086472, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: EnemyTag
+      value: Team2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3350549776699712275, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: damgeTypes
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3350549776699712275, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: EnemyTag
+      value: Team2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3350549776699712275, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: tankfsm
+      value: 
+      objectReference: {fileID: 3930909925464220436}
+    - target: {fileID: 3350549776699712275, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: resistance
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3350549776699712275, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: MinPerToTake
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 3350549776699712275, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: MaxPerToTake
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 3350549776699712275, guid: db26560c6ba75154ab4dc07c3cc88c20,
+        type: 3}
+      propertyPath: test
+      value: 
+      objectReference: {fileID: 11400000, guid: cf9f171030db64240bdd9c049154c248,
+        type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: db26560c6ba75154ab4dc07c3cc88c20, type: 3}
+--- !u!114 &3930909925464220436 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5506720583322333074, guid: db26560c6ba75154ab4dc07c3cc88c20,
+    type: 3}
+  m_PrefabInstance: {fileID: 8855951473550838918}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 430d37ee760ebc447b1463c8d8cfaa25, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

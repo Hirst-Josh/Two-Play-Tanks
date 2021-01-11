@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6a893aabd45501840861463580255438
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - Shoot: {fileID: 8300000, guid: f96989acca8dbb0489db28dafa99f818, type: 3}
+  - Fire: {fileID: 8300000, guid: 31035878c7c454845ad3c72c63bdf3fe, type: 3}
+  - explosions: {fileID: 8300000, guid: f8ae67f9160e0594ebe817c8b944f8df, type: 3}
+  - gun: {fileID: 8300000, guid: f96989acca8dbb0489db28dafa99f818, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
